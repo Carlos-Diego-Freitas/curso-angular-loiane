@@ -10,9 +10,9 @@ import { Course } from '../model/course';
 export class CoursesComponent implements OnInit {
 
   courses: Course[] = [{
-    oid: '1', name: 'Angular', categoria: 'Front-End'
+    oid: '08520606610', name: 'Carlos Diego', categoria: 'Estudante'
   }];
-  displayedColumns = ['name', 'categoria']
+  displayedColumns = ['oid','name', 'categoria']
 
 
   constructor() { }
